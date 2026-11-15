@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+  <title>Seelen-Harmonie – Nicole | Psychologische Beratung & Coaching</title>
+  <meta name="description" content="Psychologische Beratung, Gesprächs-Coaching, Hypnose und Achtsamkeitstraining mit Nicole – Begleitung durch Krisen hin zu einem achtsamen, selbstbestimmten Leben."/>
+  <link rel="canonical" href="https://seelen-harmonie.com/"/>
+  <meta name="theme-color" content="#3d5a3e"/>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:locale" content="de_DE"/>
+  <meta property="og:site_name" content="Seelen-Harmonie"/>
+  <meta property="og:title" content="Seelen-Harmonie – Ihren Weg gehen. Bewusst."/>
+  <meta property="og:description" content="Psychologische Beratung, Coaching, Hypnose und Achtsamkeit mit Nicole."/>
+  <meta property="og:url" content="https://seelen-harmonie.com/"/>
+  <meta property="og:image" content="https://seelen-harmonie.com/og.jpg"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <link rel="preload" href="/fonts/cormorant-garamond-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin/>
+  <link rel="preload" href="/fonts/jost-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin/>
+  <link rel="preload" as="image" href="/img/wald-1600.webp" imagesrcset="/img/wald-960.webp 960w, /img/wald-1600.webp 1600w" imagesizes="100vw"/>
+  <script>document.documentElement.classList.add('js')</script>
+  <style>
+    @font-face{font-family:'Jost';font-style:normal;font-weight:300;font-display:swap;src:url(/fonts/jost-latin-300-normal.woff2) format('woff2')}
+    @font-face{font-family:'Jost';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/jost-latin-400-normal.woff2) format('woff2')}
+    @font-face{font-family:'Jost';font-style:normal;font-weight:500;font-display:swap;src:url(/fonts/jost-latin-500-normal.woff2) format('woff2')}
+    @font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:300;font-display:swap;src:url(/fonts/cormorant-garamond-latin-300-normal.woff2) format('woff2')}
+    @font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:300;font-display:swap;src:url(/fonts/cormorant-garamond-latin-300-italic.woff2) format('woff2')}
+    @font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/cormorant-garamond-latin-400-normal.woff2) format('woff2')}
+    @font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:400;font-display:swap;src:url(/fonts/cormorant-garamond-latin-400-italic.woff2) format('woff2')}
+    @font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:500;font-display:swap;src:url(/fonts/cormorant-garamond-latin-500-normal.woff2) format('woff2')}
+    @font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:500;font-display:swap;src:url(/fonts/cormorant-garamond-latin-500-italic.woff2) format('woff2')}
+    @font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/cormorant-garamond-latin-600-normal.woff2) format('woff2')}
+
+    /* ═══════════════════════════════════════════════
+       DESIGN TOKENS — Waldgrün / Wellbeing
+    ═══════════════════════════════════════════════ */
+    :root {
+      --forest:      #3d5a3e;
+      --forest-dark: #2c4230;
+      --forest-mid:  #4a6e4b;
+      --forest-soft: #5e7f5f;
+      --sage:        #7a9e7e;
+      --sage-light:  #a8c5aa;
+      --sage-pale:   #d4e4d5;
+      --moss:        #c4d4b8;
+      --cream:       #f5f1ea;
+      --cream-warm:  #ede8df;
+      --parchment:   #e8e1d4;
+      --dark:        #1e2b1f;
+      --dark-2:      #263328;
+      --text:        #2f3d30;
+      --muted:       #6b7d6c;
+      --light-muted: #94a695;
+      --white:       #ffffff;
+      --radius-sm:   8px;
+      --radius-md:   14px;
+      --radius-lg:   22px;
+      --shadow-sm:   0 2px 14px rgba(30,43,31,.07);
+      --shadow-md:   0 8px 36px rgba(30,43,31,.12);
+      --shadow-lg:   0 20px 60px rgba(30,43,31,.16);
+    }
+
+    /* ═══════════════════════════════════════════════
+       RESET & BASE
+    ═══════════════════════════════════════════════ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Jost', sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.72;
+      overflow-x: hidden;
+    }
+    h1,h2,h3,h4 {
+      font-family: 'Cormorant Garamond', serif;
+      line-height: 1.18;
+    }
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+    .container { max-width: 1080px; margin: 0 auto; padding: 0 36px; }
+
+    /* ═══════════════════════════════════════════════
+       SCROLL REVEAL
+    ═══════════════════════════════════════════════ */
+    .js .r { opacity: 0; transform: translateY(16px); transition: opacity .5s ease, transform .5s ease; }
+    .js .r.on { opacity: 1; transform: none; }
+    @media (prefers-reduced-motion: reduce) { .js .r { opacity: 1; transform: none; transition: none; } html { scroll-behavior: auto !important; } }
+    .d1 { transition-delay: .12s; }
+    .d2 { transition-delay: .22s; }
+    .d3 { transition-delay: .32s; }
+    .d4 { transition-delay: .42s; }
+
+    /* ═══════════════════════════════════════════════
+       UTILITY
+    ═══════════════════════════════════════════════ */
+    .eyebrow {
+      display: inline-block;
+      font-family: 'Jost', sans-serif;
+      font-size: .68rem;
+      font-weight: 400;
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      color: var(--sage);
+      margin-bottom: 10px;
+    }
+    .btn-forest {
+      display: inline-block;
+      background: var(--forest);
+      color: var(--white);
+      padding: 14px 36px;
+      border-radius: 3px;
+      font-family: 'Jost', sans-serif;
+      font-weight: 400;
+      font-size: .88rem;
+      letter-spacing: .08em;
+      transition: background .25s, transform .2s, box-shadow .25s;
+    }
+    .btn-forest:hover { background: var(--forest-dark); transform: translateY(-2px); box-shadow: 0 10px 32px rgba(61,90,62,.3); }
+    .btn-outline {
+      display: inline-block;
+      border: 1px solid currentColor;
+      padding: 13px 36px;
+      border-radius: 3px;
+      font-family: 'Jost', sans-serif;
+      font-size: .88rem;
+      letter-spacing: .08em;
+      transition: all .25s;
+    }
+    .divider { width: 32px; height: 1px; background: var(--sage); display: block; }
+
+    /* ═══════════════════════════════════════════════
+       NAV
+    ═══════════════════════════════════════════════ */
+    #nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 28px 48px;
+      transition: background .4s, box-shadow .4s, padding .35s;
+    }
+    #nav.solid {
+      background: rgba(245,241,234,.97);
+      box-shadow: 0 1px 0 rgba(61,90,62,.08);
+      padding: 16px 48px;
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+
+    /* Logo — reine Typografie wie im Screenshot */
+    .logo {
+      display: flex; flex-direction: column; gap: 2px;
+    }
+    .logo-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.3rem;
+      font-weight: 400;
+      letter-spacing: .04em;
+      color: var(--white);
+      line-height: 1;
+      transition: color .4s;
+    }
+    #nav.solid .logo-name { color: var(--forest-dark); }
+    .logo-sub {
+      font-family: 'Jost', sans-serif;
+      font-size: .62rem;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.55);
+      transition: color .4s;
+    }
+    #nav.solid .logo-sub { color: var(--light-muted); }
+
+    .nav-links {
+      display: flex; gap: 36px; align-items: center;
+      font-size: .78rem; letter-spacing: .1em; text-transform: uppercase;
+      color: rgba(255,255,255,.65);
+      transition: color .4s;
+    }
+    #nav.solid .nav-links { color: var(--muted); }
+    .nav-links a:hover { color: var(--white); }
+    #nav.solid .nav-links a:hover { color: var(--forest); }
+    .nav-cta {
+      border: 1px solid rgba(255,255,255,.4) !important;
+      padding: 9px 24px;
+      border-radius: 2px;
+      transition: all .25s !important;
+      color: rgba(255,255,255,.85) !important;
+    }
+    .nav-cta:hover { background: rgba(255,255,255,.1) !important; border-color: rgba(255,255,255,.7) !important; }
+    #nav.solid .nav-cta { border-color: var(--forest) !important; color: var(--forest) !important; }
+    #nav.solid .nav-cta:hover { background: var(--forest) !important; color: var(--white) !important; }
+
+    /* ═══════════════════════════════════════════════
+       HERO
+    ═══════════════════════════════════════════════ */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex; align-items: center; justify-content: flex-start;
+    }
+    .hero-media { position: absolute; inset: 0; overflow: hidden; }
+    .hero-media img {
+      width: 100%; height: 100%;
+      object-fit: cover; object-position: center 30%;
+      animation: heroZoom 24s ease-in-out infinite alternate;
+    }
+    @keyframes heroZoom { from { transform: scale(1); } to { transform: scale(1.05); } }
+    .hero-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(
+        110deg,
+        rgba(20,30,20,.72) 0%,
+        rgba(20,30,20,.45) 55%,
+        rgba(20,30,20,.2) 100%
+      );
+    }
+    .hero-content {
+      position: relative; z-index: 2;
+      max-width: 680px;
+      padding: 0 48px;
+    }
+    .hero-eyebrow {
+      font-family: 'Jost', sans-serif;
+      font-size: .68rem; letter-spacing: .24em; text-transform: uppercase;
+      color: var(--sage-light);
+      margin-bottom: 24px;
+      animation: fadeUp .8s .1s both;
+    }
+    .hero h1 {
+      font-size: clamp(3rem, 7vw, 5.2rem);
+      color: var(--white);
+      font-weight: 300;
+      margin-bottom: 24px;
+      animation: fadeUp .9s .2s both;
+    }
+    .hero h1 em {
+      font-style: italic;
+      color: var(--sage-light);
+    }
+    .hero-sub {
+      font-size: 1rem;
+      color: rgba(255,255,255,.65);
+      font-weight: 300;
+      max-width: 480px;
+      margin-bottom: 44px;
+      animation: fadeUp .9s .33s both;
+      line-height: 1.8;
+    }
+    .hero-actions {
+      display: flex; gap: 14px; flex-wrap: wrap;
+      animation: fadeUp .9s .46s both;
+    }
+    .hero-actions .btn-outline {
+      color: rgba(255,255,255,.75);
+      border-color: rgba(255,255,255,.35);
+    }
+    .hero-actions .btn-outline:hover {
+      color: var(--white);
+      border-color: rgba(255,255,255,.75);
+    }
+    /* Scroll-Linie */
+    .hero-scroll {
+      position: absolute; bottom: 40px; left: 48px; z-index: 2;
+      display: flex; align-items: center; gap: 14px;
+      animation: fadeUp 1s 1s both;
+    }
+    .hero-scroll-line { width: 48px; height: 1px; background: rgba(255,255,255,.25); }
+    .hero-scroll-label { font-size: .62rem; letter-spacing: .2em; text-transform: uppercase; color: rgba(255,255,255,.35); }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: none; } }
+
+    /* ═══════════════════════════════════════════════
+       TRUST STRIP
+    ═══════════════════════════════════════════════ */
+    .trust {
+      background: var(--dark-2);
+      border-top: 1px solid rgba(122,158,126,.15);
+      padding: 28px 0;
+    }
+    .trust-row {
+      display: flex; justify-content: center; align-items: center;
+      gap: clamp(24px, 7vw, 88px); flex-wrap: wrap;
+    }
+    .trust-item { text-align: center; }
+    .trust-n {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.9rem; color: var(--sage-light); font-weight: 400; line-height: 1;
+    }
+    .trust-l {
+      font-size: .65rem; letter-spacing: .14em; text-transform: uppercase;
+      color: var(--light-muted); margin-top: 4px;
+    }
+    .trust-sep { width: 1px; height: 28px; background: rgba(255,255,255,.08); }
+
+    /* ═══════════════════════════════════════════════
+       PAIN
+    ═══════════════════════════════════════════════ */
+    .pain { background: var(--cream-warm); padding: 112px 0; }
+    .section-header { text-align: center; margin-bottom: 56px; }
+    .section-header h2 {
+      font-size: clamp(2rem, 4vw, 3rem); color: var(--dark); margin-bottom: 14px;
+    }
+    .section-header p { color: var(--muted); max-width: 480px; margin: 0 auto; font-size: .93rem; }
+    .pain-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr); gap: 2px;
+      border: 1px solid var(--parchment);
+    }
+    .pain-card {
+      background: var(--white);
+      padding: 36px 32px;
+      border: 1px solid var(--parchment);
+      transition: background .3s;
+    }
+    .pain-card:hover { background: var(--cream); }
+    .pain-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.4rem; color: var(--moss); line-height: 1; margin-bottom: 12px;
+      font-weight: 300;
+    }
+    .pain-card h3 { font-size: 1.1rem; color: var(--dark); margin-bottom: 8px; font-weight: 500; }
+    .pain-card p { color: var(--muted); font-size: .9rem; }
+    .pain-promise {
+      margin-top: 2px;
+      background: var(--forest);
+      padding: 48px 44px;
+      text-align: center;
+    }
+    .pain-promise h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.6rem, 3vw, 2.3rem);
+      color: var(--white); font-weight: 300; margin-bottom: 10px;
+    }
+    .pain-promise h3 em { font-style: italic; color: var(--sage-light); }
+    .pain-promise p { color: rgba(255,255,255,.6); max-width: 500px; margin: 0 auto 28px; font-size: .92rem; }
+
+    /* ═══════════════════════════════════════════════
+       ABOUT
+    ═══════════════════════════════════════════════ */
+    .about { padding: 120px 0; background: var(--cream); }
+    .about-grid {
+      display: grid;
+      grid-template-columns: 440px 1fr;
+      gap: 88px; align-items: center;
+    }
+    .about-img-wrap { position: relative; }
+    .about-img {
+      width: 100%; aspect-ratio: 3/4;
+      object-fit: cover; object-position: center 12%;
+      /* kein border-radius – scharfe Kante, cleaner Look */
+    }
+    /* Floaty Hintergrund-Rechteck */
+    .about-img-wrap::before {
+      content: '';
+      position: absolute;
+      top: 20px; left: -20px;
+      right: 20px; bottom: -20px;
+      background: var(--sage-pale);
+      z-index: -1;
+    }
+    .about-tag {
+      position: absolute; bottom: -1px; right: -1px;
+      background: var(--forest);
+      color: var(--white);
+      padding: 16px 22px;
+      font-family: 'Jost', sans-serif;
+      font-size: .68rem; letter-spacing: .16em; text-transform: uppercase;
+      text-align: right; line-height: 1.6;
+    }
+    .about-text h2 {
+      font-size: clamp(2rem, 3.5vw, 2.9rem); color: var(--dark); margin-bottom: 20px;
+    }
+    .about-text p { color: var(--muted); font-size: .95rem; margin-bottom: 14px; }
+    .qual-list { list-style: none; display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
+    .qual-list li {
+      display: flex; align-items: center; gap: 12px;
+      font-size: .88rem; color: var(--text);
+    }
+    .qual-dot {
+      width: 4px; height: 4px; border-radius: 50%;
+      background: var(--sage); flex-shrink: 0;
+    }
+
+    /* ═══════════════════════════════════════════════
+       SERVICES  2×2
+    ═══════════════════════════════════════════════ */
+    .services { padding: 112px 0; background: var(--cream-warm); }
+    .svc-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px;
+      background: var(--parchment);
+      border: 1px solid var(--parchment);
+    }
+    .svc-card {
+      background: var(--white);
+      display: flex; flex-direction: column;
+      transition: background .3s;
+    }
+    .svc-card:hover { background: var(--cream); }
+    .svc-img-wrap { position: relative; overflow: hidden; }
+    .svc-img {
+      width: 100%; aspect-ratio: 3/2;
+      object-fit: cover; object-position: center top;
+      transition: transform .7s ease;
+    }
+    .svc-card:hover .svc-img { transform: scale(1.03); }
+    .svc-label {
+      position: absolute; bottom: 0; left: 0;
+      background: var(--forest);
+      color: var(--white);
+      font-size: .62rem; letter-spacing: .18em; text-transform: uppercase;
+      padding: 6px 16px;
+    }
+    .svc-body { padding: 28px 32px 34px; flex: 1; display: flex; flex-direction: column; }
+    .svc-body h3 { font-size: 1.3rem; color: var(--dark); margin-bottom: 8px; }
+    .svc-body p { color: var(--muted); font-size: .88rem; flex: 1; margin-bottom: 18px; line-height: 1.75; }
+    .svc-link {
+      color: var(--forest); font-size: .78rem; letter-spacing: .1em;
+      text-transform: uppercase; align-self: flex-start;
+      border-bottom: 1px solid var(--moss);
+      padding-bottom: 2px;
+      transition: border-color .2s, color .2s;
+    }
+    .svc-link:hover { color: var(--forest-dark); border-color: var(--forest); }
+
+    /* ═══════════════════════════════════════════════
+       QUOTE
+    ═══════════════════════════════════════════════ */
+    .quote-sec { position: relative; padding: 140px 0; overflow: hidden; }
+    .quote-media { position: absolute; inset: 0; }
+    .quote-media img { width: 100%; height: 100%; object-fit: cover; object-position: center 55%; }
+    .quote-veil { position: absolute; inset: 0; background: rgba(16,24,16,.72); }
+    .quote-body {
+      position: relative; z-index: 2;
+      text-align: center; max-width: 720px; margin: 0 auto; padding: 0 36px;
+    }
+    .quote-rule { width: 24px; height: 1px; background: var(--sage-light); margin: 0 auto 32px; }
+    .quote-body blockquote {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.6rem, 3.5vw, 2.5rem);
+      font-weight: 300; font-style: italic;
+      color: var(--white); line-height: 1.55; margin-bottom: 28px;
+    }
+    .quote-sig {
+      color: var(--sage-light);
+      font-size: .68rem; letter-spacing: .22em; text-transform: uppercase;
+    }
+
+    /* ═══════════════════════════════════════════════
+       APPROACH
+    ═══════════════════════════════════════════════ */
+    .approach { padding: 120px 0; background: var(--cream); }
+    .approach-grid {
+      display: grid; grid-template-columns: 1fr 380px; gap: 96px; align-items: center;
+    }
+    .approach-text h2 { font-size: clamp(2rem, 3.5vw, 2.9rem); color: var(--dark); margin-bottom: 20px; }
+    .approach-text p { color: var(--muted); font-size: .95rem; margin-bottom: 14px; }
+    .method-list { margin-top: 32px; display: flex; flex-direction: column; gap: 0; }
+    .method {
+      display: flex; align-items: flex-start; gap: 18px;
+      padding: 18px 0;
+      border-bottom: 1px solid var(--parchment);
+    }
+    .method:first-child { border-top: 1px solid var(--parchment); }
+    .method-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.5rem; color: var(--moss); line-height: 1; min-width: 24px;
+      font-weight: 300;
+    }
+    .method strong { font-size: .9rem; color: var(--dark); display: block; margin-bottom: 2px; font-weight: 500; }
+    .method span { font-size: .84rem; color: var(--muted); }
+    .approach-img-wrap { position: relative; }
+    .approach-img-wrap::after {
+      content: '';
+      position: absolute;
+      top: -20px; right: -20px;
+      bottom: 20px; left: 20px;
+      background: var(--sage-pale);
+      z-index: -1;
+    }
+    .approach-img {
+      width: 100%; aspect-ratio: 2/3;
+      object-fit: cover; object-position: top;
+      position: relative; z-index: 1;
+    }
+
+    /* ═══════════════════════════════════════════════
+       CTA
+    ═══════════════════════════════════════════════ */
+    .cta-sec {
+      padding: 120px 0;
+      background: var(--forest-dark);
+    }
+    .cta-box { text-align: center; max-width: 600px; margin: 0 auto; padding: 0 28px; }
+    .cta-box .eyebrow { color: var(--sage-light); }
+    .cta-box h2 {
+      font-size: clamp(2rem, 4vw, 3rem); color: var(--white); margin-bottom: 18px;
+    }
+    .cta-box p { color: rgba(255,255,255,.55); margin-bottom: 36px; font-size: .93rem; }
+    .cta-info {
+      margin-top: 48px;
+      border-top: 1px solid rgba(255,255,255,.1);
+      padding-top: 32px;
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+    }
+    .cta-info-item dt {
+      font-size: .62rem; letter-spacing: .16em; text-transform: uppercase;
+      color: var(--sage); font-weight: 400; margin-bottom: 4px;
+    }
+    .cta-info-item dd { font-size: .84rem; color: rgba(255,255,255,.35); }
+
+    /* ═══════════════════════════════════════════════
+       CONTACT
+    ═══════════════════════════════════════════════ */
+    .contact { padding: 112px 0; background: var(--cream-warm); }
+    .contact-wrap { display: grid; grid-template-columns: 1fr 1.6fr; gap: 88px; align-items: start; }
+    .contact-info h2 { font-size: clamp(1.9rem, 3.5vw, 2.7rem); color: var(--dark); margin-bottom: 18px; }
+    .contact-info p { color: var(--muted); font-size: .93rem; margin-bottom: 32px; }
+    .trust-signals { display: flex; flex-direction: column; gap: 16px; }
+    .ts-item { display: flex; align-items: center; gap: 14px; }
+    .ts-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--sage); flex-shrink: 0; }
+    .ts-item span { font-size: .88rem; color: var(--text); }
+    .form { display: flex; flex-direction: column; gap: 14px; }
+    .form-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .fg { display: flex; flex-direction: column; gap: 5px; }
+    .fl {
+      font-size: .65rem; letter-spacing: .16em; text-transform: uppercase;
+      color: var(--light-muted); font-weight: 400;
+    }
+    .fi {
+      padding: 11px 16px;
+      border: 1px solid var(--parchment);
+      border-radius: 2px;
+      background: var(--white);
+      color: var(--text);
+      font-family: 'Jost', sans-serif; font-size: .9rem;
+      outline: none;
+      transition: border-color .22s, box-shadow .22s;
+    }
+    .fi:focus { border-color: var(--sage); box-shadow: 0 0 0 3px rgba(122,158,126,.12); }
+    textarea.fi { min-height: 118px; resize: vertical; }
+    .fsub {
+      background: var(--forest);
+      color: var(--white);
+      border: none; padding: 14px 36px; border-radius: 2px;
+      font-family: 'Jost', sans-serif; font-weight: 400; font-size: .88rem;
+      letter-spacing: .08em;
+      cursor: pointer; align-self: flex-start;
+      transition: background .25s, transform .2s;
+    }
+    .fsub:hover { background: var(--forest-dark); transform: translateY(-1px); }
+
+    /* ═══════════════════════════════════════════════
+       FOOTER
+    ═══════════════════════════════════════════════ */
+    footer {
+      background: var(--dark);
+      padding: 44px 48px;
+      border-top: 1px solid rgba(122,158,126,.12);
+    }
+    .footer-row {
+      max-width: 1080px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
+    }
+    .footer-logo-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.1rem; color: var(--white); font-weight: 400; letter-spacing: .04em;
+    }
+    .footer-logo-sub {
+      font-size: .6rem; letter-spacing: .18em; text-transform: uppercase; color: var(--light-muted); margin-top: 3px;
+    }
+    .footer-links { display: flex; gap: 24px; }
+    .footer-links a { font-size: .75rem; letter-spacing: .08em; color: var(--light-muted); transition: color .2s; }
+    .footer-links a:hover { color: var(--sage-light); }
+    .footer-copy { font-size: .7rem; color: rgba(255,255,255,.18); }
+
+    /* ═══════════════════════════════════════════════
+       RESPONSIVE
+    ═══════════════════════════════════════════════ */
+    @media (max-width: 900px) {
+      #nav { padding: 16px 20px; }
+      #nav.solid { padding: 12px 20px; }
+      .nav-links { display: none; }
+      .hero-content { padding: 0 24px; }
+      .hero-scroll { left: 24px; }
+      .about-grid, .approach-grid, .contact-wrap { grid-template-columns: 1fr; gap: 44px; }
+      .about-grid .about-img-wrap { order: -1; }
+      .approach-grid .approach-img-wrap { order: -1; }
+      .pain-grid, .svc-grid { grid-template-columns: 1fr; }
+      .cta-info { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+      .footer-row { flex-direction: column; text-align: center; }
+      .footer-links { justify-content: center; }
+    }
+
+    /* ═══ Ergänzungen: Barrierefreiheit, Mobilmenü, Formular ═══ */
+    .skip { position: absolute; left: 12px; top: -60px; z-index: 300; background: var(--forest-dark); color: #fff; padding: 10px 16px; border-radius: 3px; }
+    .skip:focus { top: 12px; }
+    a:focus-visible, button:focus-visible, .fi:focus-visible { outline: 2px solid var(--sage); outline-offset: 3px; }
+    .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+    section[id] { scroll-margin-top: 72px; }
+    .nav-toggle { display: none; width: 44px; height: 44px; border: 0; background: none; color: var(--white); cursor: pointer; padding: 10px; margin-right: -10px; }
+    #nav.solid .nav-toggle, #nav.open .nav-toggle { color: var(--forest-dark); }
+    .nav-toggle span { display: block; height: 1.5px; background: currentColor; margin: 5px 0; transition: transform .25s, opacity .2s; }
+    #nav.open .nav-toggle span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+    #nav.open .nav-toggle span:nth-child(2) { opacity: 0; }
+    #nav.open .nav-toggle span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+    .contact-wrap > *, .form-2 > *, .fg { min-width: 0; }
+    .fi { width: 100%; max-width: 100%; }
+    @media (max-width: 600px) { .form-2 { grid-template-columns: 1fr; } .container { padding: 0 22px; } }
+    html:not(.js) .nav-toggle { display: none; }
+    html:not(.js) #nav { position: absolute; }
+    .hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+    .f-hinweis { font-size: .78rem; line-height: 1.6; color: var(--muted); margin: 4px 0 18px; }
+    .f-hinweis a { text-decoration: underline; }
+    .f-status { margin-top: 14px; font-size: .88rem; min-height: 1.4em; }
+    .f-status.ok { color: var(--forest); }
+    .f-status.err { color: #9b3a2e; }
+    .fsub[disabled] { opacity: .7; cursor: progress; }
+    @media (max-width: 900px) {
+      .nav-toggle { display: block; }
+      #nav.open { background: rgba(245,241,234,.98); }
+      #nav.open .logo-name { color: var(--forest-dark); }
+      #nav.open .nav-links { display: flex; flex-direction: column; align-items: flex-start; gap: 4px;
+        position: absolute; top: 100%; left: 0; right: 0; padding: 8px 20px 24px; background: rgba(245,241,234,.98);
+        box-shadow: 0 12px 24px rgba(44,66,48,.08); color: var(--forest-dark); }
+      #nav.open .nav-links a { padding: 12px 0; min-height: 44px; color: var(--forest-dark); }
+      #nav.open .nav-cta { margin-top: 8px; border-color: var(--forest) !important; color: var(--forest) !important; padding: 12px 20px; }
+    }
+  </style>
+</head>
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+<!-- ══ NAV ═══════════════════════════════════════ -->
+<nav id="nav" aria-label="Hauptnavigation">
+  <a href="/" class="logo" aria-label="Seelen-Harmonie – zur Startseite">
+    <div class="logo-name">Seelen-Harmonie</div>
+    <div class="logo-sub">Psychologische Beratung · Coaching</div>
+  </a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+  <div class="nav-links" id="nav-links">
+    <a href="#ueber-nicole">Über Nicole</a>
+    <a href="#angebote">Angebote</a>
+    <a href="#kontakt" class="nav-cta">Erstgespräch anfragen</a>
+  </div>
+</nav>
+
+<!-- ══ HERO ══════════════════════════════════════ -->
+<main id="inhalt">
+<section class="hero">
+  <div class="hero-media">
+    <img src="/img/wald-1600.webp" srcset="/img/wald-960.webp 960w, /img/wald-1600.webp 1600w" sizes="100vw" width="1600" height="900" alt="" fetchpriority="high" decoding="async"/>
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Seelen-Harmonie · Nicole</div>
+    <h1>Ihren Weg <br>gehen. <em>Bewusst.</em></h1>
+    <p class="hero-sub">Ich begleite Sie durch Krisen und schwierige Lebenssituationen – hin zu einem achtsamen, ehrlichen und selbstbestimmten Leben.</p>
+    <div class="hero-actions">
+      <a href="#kontakt" class="btn-forest">Erstgespräch anfragen</a>
+      <a href="#angebote" class="btn-outline">Meine Angebote</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="hero-scroll-line"></div>
+    <div class="hero-scroll-label">Entdecken</div>
+  </div>
+</section>
+
+<!-- ══ TRUST ══════════════════════════════════════ -->
+<div class="trust r">
+  <div class="trust-row container">
+    <div class="trust-item"><div class="trust-n"><!-- TODO Nicole: genaue Zahl eintragen, z. B. 15+ -->Viele</div><div class="trust-l">Jahre Erfahrung</div></div>
+    <div class="trust-sep"></div>
+    <div class="trust-item"><div class="trust-n">4</div><div class="trust-l">Schwerpunkte</div></div>
+    <div class="trust-sep"></div>
+    <div class="trust-item"><div class="trust-n">100%</div><div class="trust-l">Individuell</div></div>
+    <div class="trust-sep"></div>
+    <div class="trust-item"><div class="trust-n">Flexibel</div><div class="trust-l">Termine nach Absprache</div></div>
+  </div>
+</div>
+
+<!-- ══ PAIN ════════════════════════════════════════ -->
+<section class="pain">
+  <div class="container">
+    <div class="section-header r">
+      <span class="eyebrow">Sie sind hier richtig, wenn …</span>
+      <h2>Das kennen Sie vielleicht</h2>
+      <p>Viele Menschen kommen zu mir, weil sie alleine keinen Ausweg aus einer Situation finden.</p>
+    </div>
+    <div class="pain-grid">
+      <div class="pain-card r">
+        <div class="pain-num">01</div>
+        <h3>Gedankenkarussell ohne Ende</h3>
+        <p>Sie kreisen immer wieder um dieselben Fragen und finden weder klare Antworten noch innere Ruhe.</p>
+      </div>
+      <div class="pain-card r d1">
+        <div class="pain-num">02</div>
+        <h3>Überwältigt von der Situation</h3>
+        <p>Krisen, Beziehungsprobleme oder Familienkonflikte fühlen sich erdrückend an – und Sie wissen nicht, wo anfangen.</p>
+      </div>
+      <div class="pain-card r d2">
+        <div class="pain-num">03</div>
+        <h3>Die eigene Mitte verloren</h3>
+        <p>Sie spüren, dass Sie sich selbst aus den Augen verloren haben – und sich ein achtsames Leben wünschen.</p>
+      </div>
+      <div class="pain-card r d3">
+        <div class="pain-num">04</div>
+        <h3>Allein mit allem</h3>
+        <p>Sie tragen vieles mit sich, haben aber niemanden, dem Sie sich wirklich anvertrauen können – ohne Bewertung.</p>
+      </div>
+    </div>
+    <div class="pain-promise r">
+      <h3>Das muss nicht so bleiben. <em>Gemeinsam finden wir Ihren Weg.</em></h3>
+      <p>Lösungsorientiert, ehrlich und ganz auf Ihre Situation abgestimmt.</p>
+      <a href="#angebote" class="btn-outline" style="color:rgba(255,255,255,.8);border-color:rgba(255,255,255,.3)">Wie ich helfen kann</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ ABOUT ════════════════════════════════════════ -->
+<section class="about" id="ueber-nicole">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-wrap r">
+        <img
+          src="/img/nicole-portrait-540.webp" width="540" height="720" loading="lazy" decoding="async"
+          alt="Nicole – Seelen-Harmonie"
+          class="about-img"
+        />
+        <div class="about-tag">
+          Psychologische Beraterin<br>
+          Seelen-Harmonie
+        </div>
+      </div>
+      <div class="about-text r d2">
+        <span class="eyebrow">Über Nicole</span>
+        <h2>Begleitung, die von Herzen kommt</h2>
+        <p>Als Psychologische Beraterin unterstütze ich seit vielen Jahren Menschen in Krisen und schwierigen Lebenssituationen.</p>
+        <p>Als Lebens-, Paar- und Familienberaterin möchte ich meinen Klienten den Weg ebnen – mit dem richtigen Werkzeug, damit sie selbstverantwortlich ihren eigenen Weg gehen können.</p>
+        <p>Neben der Psychologischen Beratung biete ich die Möglichkeit der Hypnose sowie der Entspannungstherapie an.</p>
+        <span class="divider" style="margin:24px 0"></span>
+        <ul class="qual-list">
+          <li><span class="qual-dot"></span> Psychologische Beraterin</li>
+          <li><span class="qual-dot"></span> Lebens-, Paar- und Familienberaterin</li>
+          <li><span class="qual-dot"></span> Hypnose & Entspannungstherapie</li>
+          <li><span class="qual-dot"></span> Persönliches Gesprächs-Coaching</li>
+          <li><span class="qual-dot"></span> Meditation & Achtsamkeitstraining</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SERVICES  2×2 ═══════════════════════════════ -->
+<section class="services" id="angebote">
+  <div class="container">
+    <div class="section-header r">
+      <span class="eyebrow">Meine Angebote</span>
+      <h2>Wie ich Sie begleiten kann</h2>
+      <p>Jede Situation ist anders. Ich passe meinen Ansatz individuell an das an, was Sie gerade brauchen.</p>
+    </div>
+    <div class="svc-grid">
+      <!-- Beratung → Nicole_2 (walking) -->
+      <div class="svc-card r">
+        <div class="svc-img-wrap">
+          <img src="/img/beratung-720.webp" srcset="/img/beratung-480.webp 480w, /img/beratung-720.webp 720w" sizes="(max-width: 900px) 100vw, 50vw" width="720" height="480" alt="" class="svc-img" loading="lazy" decoding="async"/>
+          <span class="svc-label" aria-hidden="true">Beratung</span>
+        </div>
+        <div class="svc-body">
+          <h3>Psychologische Beratung</h3>
+          <p>Ich begleite Sie in Lebenskrisen, bei persönlichen Fragen sowie Paar- und Familienkonflikten – achtsam, ehrlich und auf Augenhöhe.</p>
+          <a href="#kontakt" class="svc-link">Termin anfragen</a>
+        </div>
+      </div>
+      <!-- Coaching → Nicole_3 (smiling) -->
+      <div class="svc-card r d1">
+        <div class="svc-img-wrap">
+          <img src="/img/coaching-720.webp" srcset="/img/coaching-480.webp 480w, /img/coaching-720.webp 720w" sizes="(max-width: 900px) 100vw, 50vw" width="720" height="480" alt="" class="svc-img" loading="lazy" decoding="async"/>
+          <span class="svc-label" aria-hidden="true">Coaching</span>
+        </div>
+        <div class="svc-body">
+          <h3>Persönliches Gesprächs-Coaching</h3>
+          <p>Ich unterstütze Sie dabei, sich zu reflektieren, persönlich zu wachsen und Antworten auf Ihre Fragen und Themen zu finden.</p>
+          <a href="#kontakt" class="svc-link">Termin anfragen</a>
+        </div>
+      </div>
+      <!-- Hypnose → Stimmungsbild -->
+      <div class="svc-card r d2">
+        <div class="svc-img-wrap">
+          <img src="/img/hypnose-720.webp" srcset="/img/hypnose-480.webp 480w, /img/hypnose-720.webp 720w" sizes="(max-width: 900px) 100vw, 50vw" width="720" height="480" alt="" class="svc-img" loading="lazy" decoding="async"/>
+          <span class="svc-label" aria-hidden="true">Therapie</span>
+        </div>
+        <div class="svc-body">
+          <h3>Hypnose & Entspannungstherapie</h3>
+          <p>Ergänzend zur Beratung biete ich Hypnose sowie Entspannungstherapie an – für tiefe Entspannung und nachhaltige innere Veränderung.</p>
+          <a href="#kontakt" class="svc-link">Termin anfragen</a>
+        </div>
+      </div>
+      <!-- Meditation → Stimmungsbild -->
+      <div class="svc-card r d3">
+        <div class="svc-img-wrap">
+          <img src="/img/meditation-720.webp" srcset="/img/meditation-480.webp 480w, /img/meditation-720.webp 720w" sizes="(max-width: 900px) 100vw, 50vw" width="720" height="480" alt="" class="svc-img" loading="lazy" decoding="async"/>
+          <span class="svc-label" aria-hidden="true">Training</span>
+        </div>
+        <div class="svc-body">
+          <h3>Meditation & Achtsamkeitstraining</h3>
+          <p>Es gibt viele Methoden und Übungen, die man sich aneignen kann, um mit sich selbst mitfühlender und aufmerksamer zu sein.</p>
+          <a href="#kontakt" class="svc-link">Termin anfragen</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ QUOTE ════════════════════════════════════════ -->
+<section class="quote-sec">
+  <div class="quote-media">
+    <img src="/img/wald-1600.webp" srcset="/img/wald-960.webp 960w, /img/wald-1600.webp 1600w" sizes="100vw" width="1600" height="900" alt="" loading="lazy" decoding="async"/>
+  </div>
+  <div class="quote-veil"></div>
+  <div class="quote-body r">
+    <div class="quote-rule"></div>
+    <blockquote>Um mit sich selbst mitfühlender und aufmerksamer zu sein, braucht es etwas Training und Wissen.</blockquote>
+    <div class="quote-sig">Nicole · Seelen-Harmonie</div>
+  </div>
+</section>
+
+<!-- ══ APPROACH ══════════════════════════════════════ -->
+<section class="approach">
+  <div class="container">
+    <div class="approach-grid">
+      <div class="r">
+        <span class="eyebrow">Mein Ansatz</span>
+        <h2>Praktische Werkzeuge für Ihr Leben</h2>
+        <p>Ich begleite Menschen auf ihrem Weg zu einem achtsamen, ehrlichen und selbstverantwortlichen Leben.</p>
+        <p>Es gibt viele Methoden und Übungen, die man sich aneignen kann, um sich selbst besser zu verstehen – und langfristig zu stärken.</p>
+        <div class="method-list">
+          <div class="method"><div class="method-num">01</div><div><strong>Gespräch & Reflexion</strong><span>Lösungsorientiert, auf Augenhöhe</span></div></div>
+          <div class="method"><div class="method-num">02</div><div><strong>Achtsamkeit & Meditation</strong><span>Im Moment ankommen, präsent sein</span></div></div>
+          <div class="method"><div class="method-num">03</div><div><strong>Hypnose</strong><span>Tiefenwirkung auf innerer Ebene</span></div></div>
+          <div class="method"><div class="method-num">04</div><div><strong>Entspannungstherapie</strong><span>Körper und Geist in Balance bringen</span></div></div>
+        </div>
+      </div>
+      <div class="approach-img-wrap r d2">
+        <img src="/img/nicole-natur-400.webp" width="400" height="600" loading="lazy" decoding="async" alt="Nicole in der Natur" class="approach-img"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA ══════════════════════════════════════════ -->
+<section class="cta-sec">
+  <div class="cta-box r">
+    <span class="eyebrow">Bereit für Ihren nächsten Schritt?</span>
+    <h2>Ihr Weg beginnt mit einem Gespräch</h2>
+    <p>Termine finden nach individueller Vereinbarung statt – persönlich, flexibel und ganz auf Ihre Situation abgestimmt.</p>
+    <a href="#kontakt" class="btn-forest" style="background:var(--forest-mid)">Jetzt Termin anfragen</a>
+    <dl class="cta-info">
+      <div class="cta-info-item"><dt>Erreichbarkeit</dt><dd>Nach Vereinbarung</dd></div>
+      <div class="cta-info-item"><dt>Format</dt><dd>Persönlich oder Online</dd></div>
+      <div class="cta-info-item"><dt>Web</dt><dd>seelen-harmonie.com</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- ══ CONTACT ══════════════════════════════════════ -->
+<section class="contact" id="kontakt">
+  <div class="container">
+    <div class="contact-wrap">
+      <div class="r">
+        <span class="eyebrow">Kontakt</span>
+        <h2>Schreiben Sie mir</h2>
+        <p>Ich freue mich auf Ihre Nachricht und melde mich zeitnah bei Ihnen. Alle Anfragen werden vertraulich behandelt.</p>
+        <div class="trust-signals">
+          <div class="ts-item"><div class="ts-dot"></div><span>Antwort innerhalb von 48 Stunden</span></div>
+          <div class="ts-item"><div class="ts-dot"></div><span>Vertraulich & diskret</span></div>
+          <div class="ts-item"><div class="ts-dot"></div><span>Termine flexibel nach Absprache</span></div>
+        </div>
+      </div>
+      <form class="form r d2" id="kontaktform" action="/api/kontakt" method="post" novalidate>
+        <div class="form-2">
+          <div class="fg"><label class="fl" for="f-vorname">Vorname</label><input type="text" class="fi" id="f-vorname" name="vorname" autocomplete="given-name" placeholder="Ihr Vorname" required/></div>
+          <div class="fg"><label class="fl" for="f-nachname">Nachname</label><input type="text" class="fi" id="f-nachname" name="nachname" autocomplete="family-name" placeholder="Ihr Nachname"/></div>
+        </div>
+        <div class="fg"><label class="fl" for="f-email">E-Mail</label><input type="email" class="fi" id="f-email" name="email" autocomplete="email" inputmode="email" placeholder="ihre@email.de" required/></div>
+        <div class="fg">
+          <label class="fl" for="f-anliegen">Anliegen</label>
+          <select class="fi" id="f-anliegen" name="anliegen">
+            <option value="">Bitte wählen …</option>
+            <option>Psychologische Beratung</option>
+            <option>Coaching</option>
+            <option>Hypnose</option>
+            <option>Entspannungstherapie</option>
+            <option>Meditation & Achtsamkeit</option>
+            <option>Erstgespräch / allgemeine Frage</option>
+          </select>
+        </div>
+        <div class="fg"><label class="fl" for="f-nachricht">Ihre Nachricht</label><textarea class="fi" id="f-nachricht" name="nachricht" placeholder="Schreiben Sie mir gerne …" required maxlength="5000"></textarea></div>
+        <div class="hp" aria-hidden="true"><label for="f-website">Website</label><input type="text" id="f-website" name="website" tabindex="-1" autocomplete="off"/></div>
+        <p class="f-hinweis">Ihre Angaben nutze ich ausschließlich, um Ihre Anfrage zu beantworten. Mehr dazu in der <a href="/datenschutz">Datenschutzerklärung</a>.</p>
+        <button type="submit" class="fsub">Nachricht senden</button>
+        <p class="f-status" id="f-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ══ FOOTER ════════════════════════════════════════ -->
+<footer>
+  <div class="footer-row">
+    <div>
+      <div class="footer-logo-name">Seelen-Harmonie</div>
+      <div class="footer-logo-sub">Psychologische Beratung · Nicole</div>
+    </div>
+    <div class="footer-links">
+      <a href="/impressum">Impressum</a>
+      <a href="/datenschutz">Datenschutz</a>
+      <a href="#kontakt">Kontakt</a>
+    </div>
+    <span class="footer-copy">© <span id="jahr">2026</span> Seelen-Harmonie</span>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('nav');
+  const onScroll = () => nav.classList.toggle('solid', scrollY > 60);
+  addEventListener('scroll', onScroll, { passive: true }); onScroll();
+
+  // Mobilmenü
+  const toggle = nav.querySelector('.nav-toggle');
+  const setMenu = open => { nav.classList.toggle('open', open); toggle.setAttribute('aria-expanded', open); toggle.setAttribute('aria-label', open ? 'Menü schließen' : 'Menü öffnen'); };
+  toggle.addEventListener('click', () => setMenu(!nav.classList.contains('open')));
+  nav.querySelectorAll('.nav-links a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+  addEventListener('keydown', e => { if (e.key === 'Escape' && nav.classList.contains('open')) { setMenu(false); toggle.focus(); } });
+
+  // Einblenden beim Scrollen
+  if ('IntersectionObserver' in window) {
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); obs.unobserve(e.target); } });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.r').forEach(el => obs.observe(el));
+  } else document.querySelectorAll('.r').forEach(el => el.classList.add('on'));
+
+  document.getElementById('jahr').textContent = new Date().getFullYear();
+
+  // Kontaktformular – echter Versand über /api/kontakt
+  const form = document.getElementById('kontaktform');
+  const status = document.getElementById('f-status');
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    status.className = 'f-status'; status.textContent = '';
+    if (!form.checkValidity()) {
+      const bad = form.querySelector(':invalid'); bad.focus();
+      status.className = 'f-status err';
+      status.textContent = bad.type === 'email' ? 'Bitte eine gültige E-Mail-Adresse angeben.' : 'Bitte Vorname, E-Mail und Nachricht ausfüllen.';
+      return;
+    }
+    const btn = form.querySelector('.fsub'); const label = btn.textContent;
+    btn.disabled = true; btn.textContent = 'Wird gesendet …';
+    try {
+      const res = await fetch(form.action, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(Object.fromEntries(new FormData(form))) });
+      if (!res.ok) throw new Error(res.status);
+      form.reset();
+      status.className = 'f-status ok';
+      status.textContent = 'Danke! Ihre Nachricht ist angekommen – ich melde mich zeitnah bei Ihnen.';
+      btn.textContent = '✓ Gesendet';
+    } catch (err) {
+      status.className = 'f-status err';
+      status.textContent = 'Das hat leider nicht geklappt. Bitte versuchen Sie es später noch einmal.';
+      btn.disabled = false; btn.textContent = label;
+    }
+  });
+</script>
+</body>
+</html>
